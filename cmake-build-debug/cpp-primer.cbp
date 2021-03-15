@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp-primer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\ch01\;CMake Files\src\ch02\;CMake Files\src\ch03\;CMake Files\src\ch04\;CMake Files\src\ch05\;CMake Files\src\ch06\;CMake Files\src\ch07\;CMake Files\src\ch08\;CMake Files\src\ch09\;CMake Files\src\ch10\;CMake Files\src\ch11\;CMake Files\src\ch12\;CMake Files\src\ch13\;CMake Files\src\ch14\;CMake Files\src\ch15\;CMake Files\src\ch16\;CMake Files\src\ch17\;CMake Files\src\ch18\;CMake Files\src\ch19\;CMake Files\excersize\;CMake Files\excersize\ch01\;CMake Files\excersize\ch02\;CMake Files\excersize\ch03\;CMake Files\excersize\ch04\;CMake Files\excersize\ch05\;CMake Files\excersize\ch06\;CMake Files\excersize\ch07\;CMake Files\excersize\ch08\;CMake Files\excersize\ch09\;CMake Files\excersize\ch10\;CMake Files\excersize\ch11\;CMake Files\excersize\ch12\;CMake Files\excersize\ch13\;CMake Files\excersize\ch14\;CMake Files\excersize\ch15\;CMake Files\excersize\ch16\;CMake Files\excersize\ch17\;CMake Files\excersize\ch18\;CMake Files\excersize\ch19\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 while"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 while/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vecScores">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/vecScores" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 vecScores"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vecScores/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/vecScores" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 vecScores/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vec_decls">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/vec_decls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 vec_decls"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vec_decls/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/vec_decls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 vec_decls/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getline">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/getline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 getline"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getline/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/getline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 getline/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_9">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_9"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_9/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_9/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_io2">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/string_io2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_io2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_io2/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/string_io2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_io2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_io">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/string_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_io"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_io/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/string_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_io/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add_using">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/add_using" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 add_using"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add_using/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/add_using" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 add_using/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_data">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_data"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_data/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_data/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="literals">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/literals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 literals"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="literals/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/literals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 literals/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inits">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/inits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 inits"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inits/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/inits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 inits/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_12">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_12"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_12/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_12/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbl_ptr">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/dbl_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 dbl_ptr"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbl_ptr/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/dbl_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 dbl_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cond">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/cond" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cond"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cond/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/cond" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cond/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unsigned">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/unsigned" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 unsigned"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unsigned/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/unsigned" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 unsigned/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_23">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_23"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_23/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_23/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref-ex">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/ref-ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref-ex"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref-ex/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/ref-ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref-ex/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_22">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_22"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_22/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_22/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Screen_main">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Screen_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Screen_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Screen_main/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Screen_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Screen_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_16">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_16"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_16/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_16/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item_add">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item_add"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item_add/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item_add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item_add/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_3">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_3/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_11">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_11"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_11/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_11/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 add"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 add/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convs">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/convs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 convs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convs/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/convs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 convs/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_10">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_10"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_10/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_10/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="end_of_file">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/end_of_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 end_of_file"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="end_of_file/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/end_of_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 end_of_file/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="avg_price">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/avg_price" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 avg_price"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="avg_price/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/avg_price" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 avg_price/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_20">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_20"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_20/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_20/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="move">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/move" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 move"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="move/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/move" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 move/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_5">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_5"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_5/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_5/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scope_levels">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/scope_levels" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 scope_levels"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scope_levels/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/scope_levels" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 scope_levels/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_4">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_4/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arraysizeof">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/arraysizeof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraysizeof"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arraysizeof/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/arraysizeof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraysizeof/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_only">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/main_only" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_only"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_only/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/main_only" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_only/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_1">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_1/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_21">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_21"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_21/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_21/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item_add_2">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item_add_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item_add_2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sales_item_add_2/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/Sales_item_add_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sales_item_add_2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="for">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/for" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 for"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="for/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/for" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 for/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="book_sales">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/book_sales" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 book_sales"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="book_sales/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/book_sales" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 book_sales/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="escape">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/escape" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 escape"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="escape/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/escape" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 escape/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 if"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 if/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factMain">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/factMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 factMain"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factMain/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/factMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 factMain/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_18">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_18"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1_18/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/exercise1_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1_18/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compounddecls">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/compounddecls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 compounddecls"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compounddecls/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/compounddecls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 compounddecls/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise7_1">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/exercise7_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 exercise7_1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise7_1/fast">
+				<Option output="/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/exercise7_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm@8/8.0.1_3/lib/clang/8.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 exercise7_1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_1.cpp">
+			<Option target="exercise1_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_10.cpp">
+			<Option target="exercise1_10"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_11.cpp">
+			<Option target="exercise1_11"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_12.cpp">
+			<Option target="exercise1_12"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_16.cpp">
+			<Option target="exercise1_16"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_18.cpp">
+			<Option target="exercise1_18"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_20.cpp">
+			<Option target="exercise1_20"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_21.cpp">
+			<Option target="exercise1_21"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_22.cpp">
+			<Option target="exercise1_22"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_23.cpp">
+			<Option target="exercise1_23"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_3.cpp">
+			<Option target="exercise1_3"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_4.cpp">
+			<Option target="exercise1_4"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_5.cpp">
+			<Option target="exercise1_5"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/exercise1_9.cpp">
+			<Option target="exercise1_9"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/Sales_item.cpp">
+			<Option target="Sales_item"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/Sales_item.h">
+			<Option target="Sales_item"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/Sales_item_add.cpp">
+			<Option target="Sales_item_add"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/Sales_item_add_2.cpp">
+			<Option target="Sales_item_add_2"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/add.cpp">
+			<Option target="add"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/book_sales.cpp">
+			<Option target="book_sales"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/end_of_file.cpp">
+			<Option target="end_of_file"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/for.cpp">
+			<Option target="for"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/if.cpp">
+			<Option target="if"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/main_only.cpp">
+			<Option target="main_only"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/move.cpp">
+			<Option target="add"/>
+			<Option target="move"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/move.h">
+			<Option target="add"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/while.cpp">
+			<Option target="while"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/Sales_data.cpp">
+			<Option target="Sales_data"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/Sales_data.h">
+			<Option target="Sales_data"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/compounddecls.cpp">
+			<Option target="compounddecls"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/convs.cpp">
+			<Option target="convs"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/dbl_ptr.cpp">
+			<Option target="dbl_ptr"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/escape.cpp">
+			<Option target="escape"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/inits.cpp">
+			<Option target="inits"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/literals.cpp">
+			<Option target="literals"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/ref-ex.cpp">
+			<Option target="ref-ex"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/scope_levels.cpp">
+			<Option target="scope_levels"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/unsigned.cpp">
+			<Option target="unsigned"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/add_using.cc">
+			<Option target="add_using"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/getline.cc">
+			<Option target="getline"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/string_io.cc">
+			<Option target="string_io"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/string_io2.cc">
+			<Option target="string_io2"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/vecScores.cc">
+			<Option target="vecScores"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/vec_decls.cc">
+			<Option target="vec_decls"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch04/arraysizeof.cc">
+			<Option target="arraysizeof"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch04/cond.cc">
+			<Option target="cond"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch06/factMain.cpp">
+			<Option target="factMain"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/Sales_data.cpp">
+			<Option target="avg_price"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/Sales_data.h">
+			<Option target="avg_price"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/ch711.cpp">
+			<Option target="avg_price"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/ch732.cpp">
+			<Option target="Screen_main"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/exercise7_1.cpp">
+			<Option target="exercise7_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch15/text_query/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch02\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch03\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch04\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch05\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch06/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch06\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch07/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch07\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch08/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch08\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch09/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch09\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch10\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch11\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch12\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch13\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch14/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch14\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch15/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch15\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch16/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch16\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch17/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch17\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch18/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch18\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/src/ch19/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch19\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch02\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch03\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch04\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch05\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch06/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch06\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch07/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch07\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch08/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch08\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch09/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch09\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch10\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch11\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch12\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch13\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch14/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch14\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch15/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch15\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch16/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch16\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch17/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch17\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch18/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch18\"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/code/cpp-primer/excersize/ch19/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\excersize\ch19\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

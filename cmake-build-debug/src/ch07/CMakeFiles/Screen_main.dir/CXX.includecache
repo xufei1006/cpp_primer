@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/code/cpp-primer/src/ch07/Screen.h
+string
+-
+iostream
+-
+
+/Users/bytedance/code/cpp-primer/src/ch07/Screen_main.cpp
+iostream
+-
+string
+-
+Screen.h
+/Users/bytedance/code/cpp-primer/src/ch07/Screen.h
+
