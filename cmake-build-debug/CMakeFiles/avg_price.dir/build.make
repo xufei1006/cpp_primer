@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp-primer
+CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/code/cpp-primer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/code/cpp_primer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/avg_price.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/avg_price.dir/flags.make
 
 CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o: CMakeFiles/avg_price.dir/flags.make
 CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o: ../src/ch07/ch711.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o -c /Users/bytedance/code/cpp-primer/src/ch07/ch711.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o -c /Users/bytedance/code/cpp_primer/src/ch07/ch711.cpp
 
 CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.i"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp-primer/src/ch07/ch711.cpp > CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.i
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp_primer/src/ch07/ch711.cpp > CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.i
 
 CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.s"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp-primer/src/ch07/ch711.cpp -o CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.s
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp_primer/src/ch07/ch711.cpp -o CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.s
 
 CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o: CMakeFiles/avg_price.dir/flags.make
 CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o: ../src/ch07/Sales_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o -c /Users/bytedance/code/cpp-primer/src/ch07/Sales_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o -c /Users/bytedance/code/cpp_primer/src/ch07/Sales_data.cpp
 
 CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.i"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp-primer/src/ch07/Sales_data.cpp > CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.i
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp_primer/src/ch07/Sales_data.cpp > CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.i
 
 CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.s"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp-primer/src/ch07/Sales_data.cpp -o CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.s
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp_primer/src/ch07/Sales_data.cpp -o CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.s
 
 # Object files for target avg_price
 avg_price_OBJECTS = \
@@ -115,7 +115,7 @@ avg_price: CMakeFiles/avg_price.dir/src/ch07/ch711.cpp.o
 avg_price: CMakeFiles/avg_price.dir/src/ch07/Sales_data.cpp.o
 avg_price: CMakeFiles/avg_price.dir/build.make
 avg_price: CMakeFiles/avg_price.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable avg_price"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable avg_price"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avg_price.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/avg_price.dir/clean:
 .PHONY : CMakeFiles/avg_price.dir/clean
 
 CMakeFiles/avg_price.dir/depend:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles/avg_price.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles/avg_price.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/avg_price.dir/depend
 

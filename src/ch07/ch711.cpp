@@ -28,9 +28,12 @@
 */ 
 
 #include <iostream>
-using std::cerr; using std::cin; using std::cout; using std::endl;
-
 #include "Sales_data.h"
+
+using std::cerr;
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main()
 {

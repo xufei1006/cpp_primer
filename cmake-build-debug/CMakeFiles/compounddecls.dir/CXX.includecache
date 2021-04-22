@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/bytedance/code/cpp-primer/src/ch02/compounddecls.cpp
+/Users/bytedance/code/cpp_primer/src/ch02/compounddecls.cpp
+iostream
+-
+
+/Users/bytedance/code/cpp_primer/src/ch02/magicfoo.cpp
+initializer_list
+-
+vector
+-
 iostream
 -
 

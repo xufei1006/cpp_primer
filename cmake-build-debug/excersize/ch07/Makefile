@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp-primer
+CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/code/cpp-primer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/code/cpp_primer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles /Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/CMakeFiles/progress.marks
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles 0
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles /Users/bytedance/code/cpp_primer/cmake-build-debug/excersize/ch07/CMakeFiles/progress.marks
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/clean
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/preinstall
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/preinstall
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 excersize/ch07/CMakeFiles/exercise7_1.dir/rule:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/CMakeFiles/exercise7_1.dir/rule
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 excersize/ch07/CMakeFiles/exercise7_1.dir/rule
 .PHONY : excersize/ch07/CMakeFiles/exercise7_1.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ exercise7_1: excersize/ch07/CMakeFiles/exercise7_1.dir/rule
 
 # fast build rule for target.
 exercise7_1/fast:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/build
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/build
 .PHONY : exercise7_1/fast
 
 __/__/src/ch07/exercise7_1.o: __/__/src/ch07/exercise7_1.cpp.o
@@ -151,7 +151,7 @@ __/__/src/ch07/exercise7_1.o: __/__/src/ch07/exercise7_1.cpp.o
 
 # target to build an object file
 __/__/src/ch07/exercise7_1.cpp.o:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.o
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.o
 .PHONY : __/__/src/ch07/exercise7_1.cpp.o
 
 __/__/src/ch07/exercise7_1.i: __/__/src/ch07/exercise7_1.cpp.i
@@ -160,7 +160,7 @@ __/__/src/ch07/exercise7_1.i: __/__/src/ch07/exercise7_1.cpp.i
 
 # target to preprocess a source file
 __/__/src/ch07/exercise7_1.cpp.i:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.i
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.i
 .PHONY : __/__/src/ch07/exercise7_1.cpp.i
 
 __/__/src/ch07/exercise7_1.s: __/__/src/ch07/exercise7_1.cpp.s
@@ -169,7 +169,7 @@ __/__/src/ch07/exercise7_1.s: __/__/src/ch07/exercise7_1.cpp.s
 
 # target to generate assembly for a file
 __/__/src/ch07/exercise7_1.cpp.s:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.s
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f excersize/ch07/CMakeFiles/exercise7_1.dir/build.make excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.s
 .PHONY : __/__/src/ch07/exercise7_1.cpp.s
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

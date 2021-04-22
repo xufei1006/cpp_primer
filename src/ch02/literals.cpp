@@ -30,6 +30,8 @@
 #include <iostream>
 int main() 
 {
+    char *ch = NULL;
+
 	std::cout << "Hello World!";  // simple character string literal
 	std::cout << "";              // empty character string literal
 	// literal using newlines and tabs

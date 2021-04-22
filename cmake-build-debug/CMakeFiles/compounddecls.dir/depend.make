@@ -3,3 +3,5 @@
 
 CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o: ../src/ch02/compounddecls.cpp
 
+CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o: ../src/ch02/magicfoo.cpp
+

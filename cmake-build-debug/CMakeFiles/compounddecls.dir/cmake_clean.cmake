@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o"
+  "CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o"
   "compounddecls"
   "compounddecls.pdb"
 )

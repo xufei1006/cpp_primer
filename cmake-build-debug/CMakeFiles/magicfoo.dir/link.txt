@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++   -std=c++14 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/magicfoo.dir/src/ch02/magicfoo.cpp.o  -o magicfoo 

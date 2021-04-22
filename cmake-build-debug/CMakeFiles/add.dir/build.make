@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp-primer
+CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/code/cpp-primer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/code/cpp_primer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/add.dir/depend.make
@@ -79,43 +79,28 @@ include CMakeFiles/add.dir/flags.make
 
 CMakeFiles/add.dir/src/ch01/add.cpp.o: CMakeFiles/add.dir/flags.make
 CMakeFiles/add.dir/src/ch01/add.cpp.o: ../src/ch01/add.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add.dir/src/ch01/add.cpp.o"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add.dir/src/ch01/add.cpp.o -c /Users/bytedance/code/cpp-primer/src/ch01/add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add.dir/src/ch01/add.cpp.o"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add.dir/src/ch01/add.cpp.o -c /Users/bytedance/code/cpp_primer/src/ch01/add.cpp
 
 CMakeFiles/add.dir/src/ch01/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add.dir/src/ch01/add.cpp.i"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp-primer/src/ch01/add.cpp > CMakeFiles/add.dir/src/ch01/add.cpp.i
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp_primer/src/ch01/add.cpp > CMakeFiles/add.dir/src/ch01/add.cpp.i
 
 CMakeFiles/add.dir/src/ch01/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add.dir/src/ch01/add.cpp.s"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp-primer/src/ch01/add.cpp -o CMakeFiles/add.dir/src/ch01/add.cpp.s
-
-CMakeFiles/add.dir/src/ch01/move.cpp.o: CMakeFiles/add.dir/flags.make
-CMakeFiles/add.dir/src/ch01/move.cpp.o: ../src/ch01/move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/add.dir/src/ch01/move.cpp.o"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add.dir/src/ch01/move.cpp.o -c /Users/bytedance/code/cpp-primer/src/ch01/move.cpp
-
-CMakeFiles/add.dir/src/ch01/move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add.dir/src/ch01/move.cpp.i"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp-primer/src/ch01/move.cpp > CMakeFiles/add.dir/src/ch01/move.cpp.i
-
-CMakeFiles/add.dir/src/ch01/move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add.dir/src/ch01/move.cpp.s"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp-primer/src/ch01/move.cpp -o CMakeFiles/add.dir/src/ch01/move.cpp.s
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp_primer/src/ch01/add.cpp -o CMakeFiles/add.dir/src/ch01/add.cpp.s
 
 # Object files for target add
 add_OBJECTS = \
-"CMakeFiles/add.dir/src/ch01/add.cpp.o" \
-"CMakeFiles/add.dir/src/ch01/move.cpp.o"
+"CMakeFiles/add.dir/src/ch01/add.cpp.o"
 
 # External object files for target add
 add_EXTERNAL_OBJECTS =
 
 add: CMakeFiles/add.dir/src/ch01/add.cpp.o
-add: CMakeFiles/add.dir/src/ch01/move.cpp.o
 add: CMakeFiles/add.dir/build.make
 add: CMakeFiles/add.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable add"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable add"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +113,6 @@ CMakeFiles/add.dir/clean:
 .PHONY : CMakeFiles/add.dir/clean
 
 CMakeFiles/add.dir/depend:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles/add.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles/add.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/add.dir/depend
 

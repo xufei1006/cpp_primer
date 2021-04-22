@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ -G "CodeBlocks - Unix Makefiles" /Users/bytedance/code/cpp-primer
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ -G "CodeBlocks - Unix Makefiles" /Users/bytedance/code/cpp_primer
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/bytedance/code/cpp-primer/cmake-build-debug
+-- Build files have been written to: /Users/bytedance/code/cpp_primer/cmake-build-debug

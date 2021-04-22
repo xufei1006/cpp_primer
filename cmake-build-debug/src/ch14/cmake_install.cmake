@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bytedance/code/cpp-primer/src/ch14
+# Install script for directory: /Users/bytedance/code/cpp_primer/src/ch14
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

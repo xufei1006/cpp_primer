@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bytedance/code/cpp-primer/src/ch07/exercise7_1.cpp" "/Users/bytedance/code/cpp-primer/cmake-build-debug/excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.o"
+  "/Users/bytedance/code/cpp_primer/src/ch07/exercise7_1.cpp" "/Users/bytedance/code/cpp_primer/cmake-build-debug/excersize/ch07/CMakeFiles/exercise7_1.dir/__/__/src/ch07/exercise7_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

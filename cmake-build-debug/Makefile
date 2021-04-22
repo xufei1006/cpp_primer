@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp-primer
+CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/code/cpp-primer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/code/cpp_primer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named magicfoo
+
+# Build rule for target.
+magicfoo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 magicfoo
+.PHONY : magicfoo
+
+# fast build rule for target.
+magicfoo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/magicfoo.dir/build.make CMakeFiles/magicfoo.dir/build
+.PHONY : magicfoo/fast
+
+#=============================================================================
+# Target rules for targets named arraysizeof
+
+# Build rule for target.
+arraysizeof: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arraysizeof
+.PHONY : arraysizeof
+
+# fast build rule for target.
+arraysizeof/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraysizeof.dir/build.make CMakeFiles/arraysizeof.dir/build
+.PHONY : arraysizeof/fast
 
 #=============================================================================
 # Target rules for targets named while
@@ -168,6 +194,19 @@ vec_decls: cmake_check_build_system
 vec_decls/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vec_decls.dir/build.make CMakeFiles/vec_decls.dir/build
 .PHONY : vec_decls/fast
+
+#=============================================================================
+# Target rules for targets named ch1_1
+
+# Build rule for target.
+ch1_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch1_1
+.PHONY : ch1_1
+
+# fast build rule for target.
+ch1_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_1.dir/build.make CMakeFiles/ch1_1.dir/build
+.PHONY : ch1_1/fast
 
 #=============================================================================
 # Target rules for targets named getline
@@ -534,19 +573,6 @@ exercise1_20/fast:
 .PHONY : exercise1_20/fast
 
 #=============================================================================
-# Target rules for targets named move
-
-# Build rule for target.
-move: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move
-.PHONY : move
-
-# fast build rule for target.
-move/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
-.PHONY : move/fast
-
-#=============================================================================
 # Target rules for targets named exercise1_5
 
 # Build rule for target.
@@ -586,30 +612,30 @@ exercise1_4/fast:
 .PHONY : exercise1_4/fast
 
 #=============================================================================
-# Target rules for targets named arraysizeof
+# Target rules for targets named escape
 
 # Build rule for target.
-arraysizeof: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arraysizeof
-.PHONY : arraysizeof
+escape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 escape
+.PHONY : escape
 
 # fast build rule for target.
-arraysizeof/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraysizeof.dir/build.make CMakeFiles/arraysizeof.dir/build
-.PHONY : arraysizeof/fast
+escape/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escape.dir/build.make CMakeFiles/escape.dir/build
+.PHONY : escape/fast
 
 #=============================================================================
-# Target rules for targets named main_only
+# Target rules for targets named if
 
 # Build rule for target.
-main_only: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_only
-.PHONY : main_only
+if: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 if
+.PHONY : if
 
 # fast build rule for target.
-main_only/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_only.dir/build.make CMakeFiles/main_only.dir/build
-.PHONY : main_only/fast
+if/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/build
+.PHONY : if/fast
 
 #=============================================================================
 # Target rules for targets named exercise1_1
@@ -675,32 +701,6 @@ book_sales: cmake_check_build_system
 book_sales/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_sales.dir/build.make CMakeFiles/book_sales.dir/build
 .PHONY : book_sales/fast
-
-#=============================================================================
-# Target rules for targets named escape
-
-# Build rule for target.
-escape: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 escape
-.PHONY : escape
-
-# fast build rule for target.
-escape/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/escape.dir/build.make CMakeFiles/escape.dir/build
-.PHONY : escape/fast
-
-#=============================================================================
-# Target rules for targets named if
-
-# Build rule for target.
-if: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 if
-.PHONY : if
-
-# fast build rule for target.
-if/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/build
-.PHONY : if/fast
 
 #=============================================================================
 # Target rules for targets named factMain
@@ -1267,6 +1267,33 @@ src/ch01/book_sales.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/book_sales.dir/build.make CMakeFiles/book_sales.dir/src/ch01/book_sales.cpp.s
 .PHONY : src/ch01/book_sales.cpp.s
 
+src/ch01/ch1_1.o: src/ch01/ch1_1.cpp.o
+
+.PHONY : src/ch01/ch1_1.o
+
+# target to build an object file
+src/ch01/ch1_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_1.dir/build.make CMakeFiles/ch1_1.dir/src/ch01/ch1_1.cpp.o
+.PHONY : src/ch01/ch1_1.cpp.o
+
+src/ch01/ch1_1.i: src/ch01/ch1_1.cpp.i
+
+.PHONY : src/ch01/ch1_1.i
+
+# target to preprocess a source file
+src/ch01/ch1_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_1.dir/build.make CMakeFiles/ch1_1.dir/src/ch01/ch1_1.cpp.i
+.PHONY : src/ch01/ch1_1.cpp.i
+
+src/ch01/ch1_1.s: src/ch01/ch1_1.cpp.s
+
+.PHONY : src/ch01/ch1_1.s
+
+# target to generate assembly for a file
+src/ch01/ch1_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_1.dir/build.make CMakeFiles/ch1_1.dir/src/ch01/ch1_1.cpp.s
+.PHONY : src/ch01/ch1_1.cpp.s
+
 src/ch01/end_of_file.o: src/ch01/end_of_file.cpp.o
 
 .PHONY : src/ch01/end_of_file.o
@@ -1347,63 +1374,6 @@ src/ch01/if.s: src/ch01/if.cpp.s
 src/ch01/if.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/src/ch01/if.cpp.s
 .PHONY : src/ch01/if.cpp.s
-
-src/ch01/main_only.o: src/ch01/main_only.cpp.o
-
-.PHONY : src/ch01/main_only.o
-
-# target to build an object file
-src/ch01/main_only.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_only.dir/build.make CMakeFiles/main_only.dir/src/ch01/main_only.cpp.o
-.PHONY : src/ch01/main_only.cpp.o
-
-src/ch01/main_only.i: src/ch01/main_only.cpp.i
-
-.PHONY : src/ch01/main_only.i
-
-# target to preprocess a source file
-src/ch01/main_only.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_only.dir/build.make CMakeFiles/main_only.dir/src/ch01/main_only.cpp.i
-.PHONY : src/ch01/main_only.cpp.i
-
-src/ch01/main_only.s: src/ch01/main_only.cpp.s
-
-.PHONY : src/ch01/main_only.s
-
-# target to generate assembly for a file
-src/ch01/main_only.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_only.dir/build.make CMakeFiles/main_only.dir/src/ch01/main_only.cpp.s
-.PHONY : src/ch01/main_only.cpp.s
-
-src/ch01/move.o: src/ch01/move.cpp.o
-
-.PHONY : src/ch01/move.o
-
-# target to build an object file
-src/ch01/move.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/ch01/move.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/ch01/move.cpp.o
-.PHONY : src/ch01/move.cpp.o
-
-src/ch01/move.i: src/ch01/move.cpp.i
-
-.PHONY : src/ch01/move.i
-
-# target to preprocess a source file
-src/ch01/move.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/ch01/move.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/ch01/move.cpp.i
-.PHONY : src/ch01/move.cpp.i
-
-src/ch01/move.s: src/ch01/move.cpp.s
-
-.PHONY : src/ch01/move.s
-
-# target to generate assembly for a file
-src/ch01/move.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/ch01/move.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/src/ch01/move.cpp.s
-.PHONY : src/ch01/move.cpp.s
 
 src/ch01/while.o: src/ch01/while.cpp.o
 
@@ -1620,6 +1590,36 @@ src/ch02/literals.s: src/ch02/literals.cpp.s
 src/ch02/literals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/literals.dir/build.make CMakeFiles/literals.dir/src/ch02/literals.cpp.s
 .PHONY : src/ch02/literals.cpp.s
+
+src/ch02/magicfoo.o: src/ch02/magicfoo.cpp.o
+
+.PHONY : src/ch02/magicfoo.o
+
+# target to build an object file
+src/ch02/magicfoo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/magicfoo.dir/build.make CMakeFiles/magicfoo.dir/src/ch02/magicfoo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compounddecls.dir/build.make CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o
+.PHONY : src/ch02/magicfoo.cpp.o
+
+src/ch02/magicfoo.i: src/ch02/magicfoo.cpp.i
+
+.PHONY : src/ch02/magicfoo.i
+
+# target to preprocess a source file
+src/ch02/magicfoo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/magicfoo.dir/build.make CMakeFiles/magicfoo.dir/src/ch02/magicfoo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compounddecls.dir/build.make CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.i
+.PHONY : src/ch02/magicfoo.cpp.i
+
+src/ch02/magicfoo.s: src/ch02/magicfoo.cpp.s
+
+.PHONY : src/ch02/magicfoo.s
+
+# target to generate assembly for a file
+src/ch02/magicfoo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/magicfoo.dir/build.make CMakeFiles/magicfoo.dir/src/ch02/magicfoo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compounddecls.dir/build.make CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.s
+.PHONY : src/ch02/magicfoo.cpp.s
 
 src/ch02/ref-ex.o: src/ch02/ref-ex.cpp.o
 
@@ -2071,6 +2071,7 @@ help:
 	@echo "... arraysizeof"
 	@echo "... avg_price"
 	@echo "... book_sales"
+	@echo "... ch1_1"
 	@echo "... compounddecls"
 	@echo "... cond"
 	@echo "... convs"
@@ -2098,9 +2099,8 @@ help:
 	@echo "... if"
 	@echo "... inits"
 	@echo "... literals"
+	@echo "... magicfoo"
 	@echo "... main"
-	@echo "... main_only"
-	@echo "... move"
 	@echo "... ref-ex"
 	@echo "... scope_levels"
 	@echo "... string_io"
@@ -2166,6 +2166,9 @@ help:
 	@echo "... src/ch01/book_sales.o"
 	@echo "... src/ch01/book_sales.i"
 	@echo "... src/ch01/book_sales.s"
+	@echo "... src/ch01/ch1_1.o"
+	@echo "... src/ch01/ch1_1.i"
+	@echo "... src/ch01/ch1_1.s"
 	@echo "... src/ch01/end_of_file.o"
 	@echo "... src/ch01/end_of_file.i"
 	@echo "... src/ch01/end_of_file.s"
@@ -2175,12 +2178,6 @@ help:
 	@echo "... src/ch01/if.o"
 	@echo "... src/ch01/if.i"
 	@echo "... src/ch01/if.s"
-	@echo "... src/ch01/main_only.o"
-	@echo "... src/ch01/main_only.i"
-	@echo "... src/ch01/main_only.s"
-	@echo "... src/ch01/move.o"
-	@echo "... src/ch01/move.i"
-	@echo "... src/ch01/move.s"
 	@echo "... src/ch01/while.o"
 	@echo "... src/ch01/while.i"
 	@echo "... src/ch01/while.s"
@@ -2205,6 +2202,9 @@ help:
 	@echo "... src/ch02/literals.o"
 	@echo "... src/ch02/literals.i"
 	@echo "... src/ch02/literals.s"
+	@echo "... src/ch02/magicfoo.o"
+	@echo "... src/ch02/magicfoo.i"
+	@echo "... src/ch02/magicfoo.s"
 	@echo "... src/ch02/ref-ex.o"
 	@echo "... src/ch02/ref-ex.i"
 	@echo "... src/ch02/ref-ex.s"

@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp-primer
+CMAKE_SOURCE_DIR = /Users/bytedance/code/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/code/cpp-primer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/code/cpp_primer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/compounddecls.dir/depend.make
@@ -79,28 +79,43 @@ include CMakeFiles/compounddecls.dir/flags.make
 
 CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o: CMakeFiles/compounddecls.dir/flags.make
 CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o: ../src/ch02/compounddecls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o -c /Users/bytedance/code/cpp-primer/src/ch02/compounddecls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o -c /Users/bytedance/code/cpp_primer/src/ch02/compounddecls.cpp
 
 CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.i"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp-primer/src/ch02/compounddecls.cpp > CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.i
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp_primer/src/ch02/compounddecls.cpp > CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.i
 
 CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.s"
-	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp-primer/src/ch02/compounddecls.cpp -o CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.s
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp_primer/src/ch02/compounddecls.cpp -o CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.s
+
+CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o: CMakeFiles/compounddecls.dir/flags.make
+CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o: ../src/ch02/magicfoo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o -c /Users/bytedance/code/cpp_primer/src/ch02/magicfoo.cpp
+
+CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.i"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/code/cpp_primer/src/ch02/magicfoo.cpp > CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.i
+
+CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.s"
+	/usr/local/Cellar/llvm@8/8.0.1_3/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/code/cpp_primer/src/ch02/magicfoo.cpp -o CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.s
 
 # Object files for target compounddecls
 compounddecls_OBJECTS = \
-"CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o"
+"CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o" \
+"CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o"
 
 # External object files for target compounddecls
 compounddecls_EXTERNAL_OBJECTS =
 
 compounddecls: CMakeFiles/compounddecls.dir/src/ch02/compounddecls.cpp.o
+compounddecls: CMakeFiles/compounddecls.dir/src/ch02/magicfoo.cpp.o
 compounddecls: CMakeFiles/compounddecls.dir/build.make
 compounddecls: CMakeFiles/compounddecls.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compounddecls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable compounddecls"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compounddecls.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +128,6 @@ CMakeFiles/compounddecls.dir/clean:
 .PHONY : CMakeFiles/compounddecls.dir/clean
 
 CMakeFiles/compounddecls.dir/depend:
-	cd /Users/bytedance/code/cpp-primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug /Users/bytedance/code/cpp-primer/cmake-build-debug/CMakeFiles/compounddecls.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bytedance/code/cpp_primer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug /Users/bytedance/code/cpp_primer/cmake-build-debug/CMakeFiles/compounddecls.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/compounddecls.dir/depend
 
